@@ -1,30 +1,65 @@
 
 body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #747704;
 }
 
 .udacity-logo {
 	width: 130px;
-	height: 130px;
 }
 
 .extra-light {
 	font-weight: 200;
 }
+
 .name-font {
 	font-size: 64px;
 }
+
 .text-muted {
 	color: #BCBBBB;
 }
+
 .text-light {
 	font-weight: 300;
 }
+
 .text-thin {
 	font-weight: 100
 }
 
 .titile-super {
 	font-size: 60px;
+}
+
+@media only screen and (max-width: 850px) {
+	.name-font {
+		font-size: 48px;
+	}
+
+	.udacity-logo {
+		max-width: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 650px) {
+	.name-font {
+		font-size: 36px;
+	}
+
+	.udacity-logo {
+		max-width: 70px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.name-font {
+		font-size: 28px;
+	}
+
 }
