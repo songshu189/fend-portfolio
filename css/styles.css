@@ -8,6 +8,11 @@ body {
 	width: 130px;
 }
 
+.header-breaker {
+	border-bottom: 5px solid #bcbbbb;
+	margin-bottom: 35px;
+}
+
 .extra-light {
 	font-weight: 200;
 }
